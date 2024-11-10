@@ -1,0 +1,141 @@
+/* AboutPage.css */
+
+/* Enable vertical scrolling and snap effect */
+.hero-section-1 {
+    height: 100vh;
+    overflow-y: auto; /* Vertical scrolling */
+    scroll-snap-type: y mandatory; /* Snap effect for each section */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1e1f33, #23265a);
+    color: white;
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-photo/man-wearing-vr-glasses-gaming_23-2151138370.jpg?t=st=1731086512~exp=1731090112~hmac=06b593360192c9e8cb3aec65b328fd52875a21f08efbbc5168ff86eee6d580d1&w=1800");
+  }
+  
+  /* Each section takes full viewport height and aligns to start */
+  .hero-section-1 section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust for layout of text & image */
+    padding: 20px;
+    scroll-snap-align: start; /* Snap section to top of viewport */
+  }
+  .hero-heading-1{
+    font-size: 60px;
+  }
+  .hero-subheading-1{
+    font-size: 25px;
+  }
+  
+  /* Main content on the left */
+  .main-content-1 {
+    max-width: 50%;
+    text-align: left;
+    color: rgb(246, 238, 239);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; /* Optional: Round the corners */
+  padding: 60px;
+  }
+  
+  /* Illustration on the right */
+  .illustration-1 {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .illustration-1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Custom scrollbar styling */
+  .hero-section-1::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .hero-section-1::-webkit-scrollbar-thumb {
+    background: #5865f2;
+    border-radius: 4px;
+  }
+  
+  .hero-section-1::-webkit-scrollbar-track {
+    background: #1e1f33;
+  }
+
+  .header-2 {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .logo-2 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+  }
+  
+  .logo-2 img {
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+  }
+  
+  .nav-links-2 {
+    display: flex;
+    gap: 26px;
+    font-size: 20px;
+    padding-left: 150px ;
+  }
+  
+  .nav-links-2 a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links-2 a:hover {
+    color: #b3b3ff;
+  }
+  
+  .login-button-2 {
+    background-color: #f0f0f0;
+    color: #23265a;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-left: 250px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button-2:hover {
+    background-color: #f0d36d;
+  }
+  
+  .about-button-2 {
+    background-color:#f0f0f0;
+    color: #23265a;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-left: 70px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .about-button-1:hover {
+    background-color: #f0d36d;
+  }
+  

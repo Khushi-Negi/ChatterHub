@@ -1,0 +1,22 @@
+/* styles.css */
+.full-height-section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    scroll-snap-align: start; /* Snaps each section to the start on scroll */
+  }
+  
+  .section-1 { background-color: #5865f2; }
+  .section-2 { background-color: #23265a; }
+  .section-3 { background-color: #1e1f33; }
+  
+  .container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory; /* Snap scroll for smooth transitions */
+  }
+  

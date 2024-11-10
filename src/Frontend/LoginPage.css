@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(145deg, #5865f2, #5865f2) fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: url("https://img.freepik.com/free-photo/man-wearing-vr-glasses-gaming_23-2151138370.jpg?t=st=1731086512~exp=1731090112~hmac=06b593360192c9e8cb3aec65b328fd52875a21f08efbbc5168ff86eee6d580d1&w=1800");
+}
+  
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+   
+
+  }
+  
+  .login-box {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 8px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .header-1 {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .logo-1 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+  }
+  
+  .logo-1 img {
+    width: 62px;
+    height: 62px;
+    margin-right: 8px;
+  }
+  
+  .nav-links-1 {
+    display: flex;
+    gap: 26px;
+    font-size: 20px;
+    padding-left: 150px ;
+  }
+  
+  .nav-links-1 a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links-1 a:hover {
+    color: #b3b3ff;
+  }
+  
+  .login-button-1 {
+    background-color: #f0f0f0;
+    color: #23265a;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-left: 250px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button-1:hover {
+    background-color: #f0d36d;
+  }
+  
+  .about-button-1 {
+    background-color:#f0f0f0;
+    color: #23265a;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-left: 70px;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .about-button-1:hover {
+    background-color: #f0d36d;
+  }
+  
+  .login-box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .login-box p {
+    color: #b9bbbe;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    font-size: 14px;
+    color: #8e9297;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .forgot-password {
+    font-size: 12px;
+    color: #00b0f4;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .login-button-1 {
+    background-color: #5865f2;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-items: center;
+  
+  }
+  
+  .qr-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .qr-code {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .qr-section p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .qr-section span {
+    font-size: 12px;
+    color: #b9bbbe;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b9bbbe;
+  }
+  
+  .register-link a {
+    color: #00b0f4;
+    text-decoration: none;
+  }
+  
+  .illustration-2 {
+    width: 50%;
+   height: 60%; /* Set the width of the illustration */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center;
+
+   
+   
+     /* Vertically center the image */
+    
+  }
+  
+  .illustration-2 img {
+    width: 60%; /* Adjust the image size */
+    height: auto;
+   
+  }
+  .login-button-4 {
+    background-color: #5865F2; /* Discord's signature color */
+    color: #ffffff;            /* White text */
+    padding: 12px 24px;        /* Padding for a balanced button size */
+    border: none;              /* Remove default border */
+    border-radius: 5px;        /* Slightly rounded corners */
+    font-size: 16px;           /* Font size */
+    font-weight: bold;         /* Bold text for emphasis */
+    cursor: pointer;           /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; 
+    /* Smooth transition for hover */
+   
+  }
